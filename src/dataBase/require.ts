@@ -44,7 +44,7 @@ export const bothStudent = async (studentData: any) => {
     return await Alumno.findOneAndUpdate({
             expedient: studentData.expedient
         },
-        studentData, {git push origin diego
+        studentData, {
             upsert: true,
             new: true
         }
