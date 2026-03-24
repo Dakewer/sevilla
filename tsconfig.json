@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "esnext", //"target": "ES2022",
+    "module": "nodenext", //,"module": "CommonJS",
+    "esModuleInterop": true,
+    "strict": true,
+    "outDir": "./dist",
+    "sourceMap": true
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules", "./src/**/*.spec.ts"]
+}
