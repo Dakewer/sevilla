@@ -1,8 +1,7 @@
 // Importaciones
 const mongoose = require('mongoose');
-const student = require('../models/student.js');
+const student = require('../dataBase/index.js');
 const {response} = require("express");
-const bcrypt = require('bcrypt');
 
 // Funciones
 function createStudent(req, res) {
